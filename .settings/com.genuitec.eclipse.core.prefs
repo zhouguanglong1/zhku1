@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/json/json1.json,WebRoot/js/swipe.js,WebRoot/js/ckeditor/ckeditor.js,WebRoot/js/jquery/jquery-1.6.min.js,WebRoot/json/json2.json,WebRoot/js/lib/jquery/jquery.min.js,WebRoot/boot
+validator.Unchecked=

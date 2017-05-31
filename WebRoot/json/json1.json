@@ -1,0 +1,29 @@
+[
+  {
+    "text":"第一个图片第一届V粉社区辩论赛第3场，竞猜赢金豆",
+    "pc": "${pageContext.request.contextPath}/images/1.jpg"
+  },
+  {
+    "text":"第二个图片第一届V粉社区辩论赛第3场，竞猜赢金豆",
+    "pc":"${pageContext.request.contextPath}/images/2.jpg"
+  },
+  {
+    "text":"第三个图片第一届V粉社区辩论赛第3场，竞猜赢金豆",
+    "pc":"${pageContext.request.contextPath}/images/3.jpg"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

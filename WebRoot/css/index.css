@@ -1,0 +1,323 @@
+/*头部*/
+.zhku-nav{
+    width: 100%;
+    height: 66px;
+    background-color: #008CD7;
+}
+.zhku-nav .navber {
+    height: 100%;
+}
+.zhku-nav .navber img{
+    margin: 10px 0 0 0;
+}
+.zhku-nav .navber .n-sign{
+    height: 100%;
+    margin-left: 35px;
+}
+.zhku-nav .navber .n-sign li{
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 66px;
+}
+.zhku-nav .navber .n-sign li a{
+    color: #FFFFFF;
+    display: block;
+    height: 66px;
+    /*width: 100%;*/
+    margin: 0 5px;
+    padding: 0 10px;
+}
+.zhku-nav .navber .n-sign li a:hover{
+    color: #008CD7;
+    background-color: #D4E8F1;
+}
+.zhku-nav .navber .n-search .input{
+    display: inline-block;
+    background: none;
+    background-color: #FFFFFF;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    border-radius: 20px;
+    width: 205px;
+    height: 31px;
+    line-height: 31px;
+    margin: 15px 20px 0 0;
+    /*overflow: visible;*/
+}
+.zhku-nav .navber .n-search .input a{
+    width: 61px;
+    display: block;
+    padding-left: 10px;
+    text-align: left;
+    text-decoration: none;
+    background: url(../images/arw_d.gif) no-repeat 80% 50%;
+}
+.zhku-nav .navber .n-search .input .xg1{
+    float: left;
+}
+.zhku-nav .navber .n-search .input input{
+    width: 100px;
+    height: 22px;
+    text-align: center;
+    margin-top: 3px;
+    border: 1px solid #FFF;
+}
+.zhku-nav .navber .n-search .input button{
+    background: url(//bbs.vivo.com.cn/./template/vivo2015/images/icon_search.png) no-repeat 50% 50%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 30px;
+    height: 23px;
+    overflow: hidden;
+    box-shadow: none;
+}
+.zhku-nav .navber .n-search .text{
+    height: 66px;
+    width: 62px;
+    line-height: 66px;
+}
+.zhku-nav .navber .n-search .text a{
+    color: #FFFFFF;
+}
+.zhku-nav .navber .n-search .text span{
+    height: 12px;
+    margin-right: 2px;
+    border: 1px solid #f7f7f7;
+}
+/*轮播图*/
+
+.zhku-banner .carousel-inner .item{
+    width: 100%;
+
+}
+.zhku-banner .carousel-inner .img_pc{
+    width: 100%;
+    /*height: 410px;*/
+    display: block;
+    /*让图片居中*/
+    background-position: center;
+    /*为了以上图片与容器大小不一致造成 1.内容无法完全显示  2.容器有空白*/
+    background-size: cover;
+    /*text-align: center;*/
+}
+.zhku-banner .carousel-inner img{
+    width: 50%;
+    float: right;
+    margin-right: 100px;
+    display: block;
+    position: absolute;
+    right: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.zhku-banner .carousel-inner .zhku-carousel-caption{
+    float: left;
+    /*display: inline-block;*/
+    height: 400px;
+    width: 100%;
+    background:url("../images/bg.jpg");
+}
+.zhku-banner .zhku-carousel-caption {
+    color: #000;
+    /*text-align: center;*/
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.zhku-banner .zhku-carousel-caption h3{
+    width: 30%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 100px;
+    margin-left: 140px;
+
+    /*padding-bottom: 30px;*/
+}
+/*<!--编辑-->*/
+
+.zhku-edit{
+    height: 500px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.zhku-edit .zhkuleft{
+    width: 820px;
+    height: 480px;
+    margin: 10px 0;
+    border-right: 1px solid #9d9d9d;
+}
+.zhku-edit .zhkuleft .zhkutop{
+    height: 40px;
+    line-height: 40px;
+    margin-right:  15px;
+    border-bottom: 1px solid #9d9d9d;
+    text-align: start;
+    font-size: 16px;
+}
+.zhku-edit .zhkuleft .zhkubottom{
+    width: 800px;
+    /*margin: 0 15px;*/
+    height: 500px;
+}
+.zhku-edit .zhkuleft .zhkuone,.zhku-edit .zhkuleft .zhkutwo{
+    height: 250px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.zhku-edit .zhkuleft .zhkuone img,.zhku-edit .zhkuleft .zhkutwo img{
+    /*height: 200px;*/
+    margin-top: 20px;
+}
+.zhku-edit .zhkuleft .zhkuone div,.zhku-edit .zhkuleft .zhkutwo div{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 400px;
+}
+.zhku-edit .zhkuleft .zhkuone div h3,.zhku-edit .zhkuleft .zhkutwo div h3{
+    font-size: 18px;
+}
+.zhku-edit .zhkuleft .zhkuone div p,.zhku-edit .zhkuleft .zhkutwo div p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.zhku-edit .zhkuleft .zhkuone .aa,.zhku-edit .zhkuleft .zhkuone .bb,
+.zhku-edit .zhkuleft .zhkuone .cc,.zhku-edit .zhkuleft .zhkutwo .aa,.zhku-edit .zhkuleft .zhkutwo .bb,
+.zhku-edit .zhkuleft .zhkutwo .cc{
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 25px;
+    color: #b2b8c1;
+    height: 14px;
+    line-height: 14px;
+}
+.zhku-edit .zhkuleft .zhkuone .aa,.zhku-edit .zhkuleft .zhkutwo .aa{
+    background: url("../images/icon_views.png")no-repeat 0 center;
+}
+.zhku-edit .zhkuleft .zhkuone .bb,.zhku-edit .zhkuleft .zhkutwo .bb{
+    background: url(../images/icon_reply.png)no-repeat 0 center;
+}
+.zhku-edit .zhkuleft .zhkuone .cc,.zhku-edit .zhkuleft .zhkutwo .cc{
+    background: url(../images/icon_author.png)no-repeat 0 center;
+}
+.zhku-edit .zhkuleft .zhkutwo{
+
+}
+.zhku-edit .zhkuright{
+    width: 260px;
+    height: 480px;
+    margin-top:  10px;
+}
+.zhku-edit .zhkuright .zhkuone,.zhku-edit .zhkuright .zhkuthree{
+    height: 40px;
+    line-height: 40px;
+    margin: 0 15px;
+    border-bottom: 1px solid #9d9d9d;
+    /*background-color: slateblue;*/
+    text-align: start;
+    font-size: 16px;
+}
+.zhku-edit .zhkuright .zhkutwo ul{
+    width: 100%;
+}
+.zhku-edit .zhkuright .zhkutwo li{
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    padding:0 20px;
+    margin: 5px 10px;
+    text-align: center;
+    float: left;
+    display: block;
+    color: #666666;
+    border: 1px solid #cccccc;
+    border-radius: 40%;
+}
+.zhku-edit .zhkuright .zhkutwo li:nth-child(3n+2){
+    width: 80px;
+}
+.zhku-edit .zhkuright .zhkufour{
+    width: 100px;
+}
+.zhku-edit .zhkuright .zhkufour li{
+    width:260px;
+    padding-left: 60px;
+    line-height: 50px;
+    height: 50px;
+    margin:10px 10px;
+}
+.zhku-edit .zhkuright .zhkufour .gg{
+    background: url("../images/77.gif")no-repeat left 0 ;
+}
+.zhku-edit .zhkuright .zhkufour .ff{
+    background: url("../images/113.gif")no-repeat left;
+}
+.zhku-edit .zhkuright .zhkufour .dd{
+    background: url("../images/140.gif")no-repeat left;
+}
+.zhku-edit .zhkuright .zhkufour .ee{
+    background: url("../images/121.gif")no-repeat left;
+}
+.zhku-edit .zhkuright .zhkufour .dd,.zhku-edit .zhkuright .zhkufour .ee,.zhku-edit .zhkuright .zhkufour .ff,.zhku-edit .zhkuright .zhkufour .gg{
+    background-size: 50px 50px;
+}
+/*<!--底部-->*/
+.zhkufloor{
+    height: 200px;
+    margin-top: 40px;
+    border-top:  1px solid silver;
+}
+.zhkufloor ul{
+margin-top: 20px;
+}
+.zhkufloor ul li{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    /*border: 1px solid #666666;*/
+    border-radius: 50%;
+    /*text-align: center;*/
+    /*line-height: 50px;*/
+}
+.zhkufloor ul .ll{
+    width: 70px;
+    border:none;
+    border-radius: inherit;
+    line-height: 50px;
+    margin-right: 15px;
+    color:#666666;
+    text-align: center;
+    font-size: 16px;
+}
+
+.zhkufloor ul .hh{
+    background:url("../images/z1.png") no-repeat -214px -81px;
+}
+.zhkufloor ul .ii{
+    background:url("../images/z1.png") no-repeat -350px -81px;
+}
+.zhkufloor ul .jj{
+    background:url("../images/z1.png") no-repeat -125px -81px;
+}
+.zhkufloor ul .hh,.zhkufloor ul .ii,.zhkufloor ul .jj,.zhkufloor ul .kk{
+    background-color: #757584;
+}
+/*.zhkufloor ul .hh:hover,.zhkufloor ul .ii:hover,.zhkufloor ul .jj:hover,{*/
+    /*background-color: #d43f3a;*/
+    /*/!*margin-right: 17px;*!/*/
+/*}*/
+.zhkufloor ul .ii:hover,.zhkufloor ul .hh:hover,.zhkufloor ul .jj:hover{
+    background-color: #d43f3a;
+}
+
+.zhkufloor .zhku-fleft{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+
+
+
+

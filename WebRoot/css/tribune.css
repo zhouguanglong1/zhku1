@@ -1,0 +1,137 @@
+.wu{
+    background-color: #ECECFB;
+}
+.tribune-table{
+    height: 150px;
+    background-color: #ECECFB;
+}
+.tribune-table ul{
+    width: 800px;
+}
+.tribune-table li{
+    width: 53px;
+    height: 53px;
+    float: left;
+    margin: 40px 50px 40px 50px;
+    position: relative;
+}
+.tribune-table li span{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 20px;
+    bottom: -20px;
+    left: -8px;
+
+}
+.tribune-table .aa{
+    background:url("../images/chart_icon.png") no-repeat 0 0;
+}
+.tribune-table .bb{
+    background:url("../images/chart_icon.png") no-repeat 0px -53px;
+}
+.tribune-table .cc{
+    background:url("../images/chart_icon.png") no-repeat 0 -106px;
+}
+.tribune-table .dd{
+    background:url("../images/chart_icon.png") no-repeat 0 -159px;
+}
+.tribune-table .aa,.tribune-table .bb,.tribune-table .cc,.tribune-table .dd{
+
+}
+.tribune-table div{
+    background-color: darkorange;
+}
+.tribune-table .day{
+    width: 286px;
+    height: 103px;
+    position: relative;
+    margin-top: 45px;
+    background-color: skyblue;
+}
+.tribune-table .day img{
+    position: absolute;
+    bottom: 0px;
+}
+/*评论区*/
+.tribune-text .tribune-textl{
+    width: 750px;
+    margin-top: 30px;
+    padding-right: 20px;
+    border-right: 1px solid #d4d4d4;
+    position: relative;
+}
+.tribune-text .tribune-textl .item{
+
+    width: 750px;
+    height: 67px;
+    margin-bottom: 27px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.tribune-text .tribune-textl .item .mm{
+    border: 1px solid #EAEAEA;
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    vertical-align: text-bottom;
+}
+.tribune-text .tribune-textl .tribune-lr{
+    float: right;
+    height: 66px;
+    width: 670px;
+    margin-left: 5px;
+}
+.tribune-text .tribune-textl .tribune-lr h3{
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+}
+.tribune-text .tribune-textl .tribune-lr h3 img{
+    margin-left: 5px;
+    vertical-align: text-bottom;
+}
+.tribune-text .tribune-textl .tribune-lr div{
+    margin-top: 6px;
+}
+.tribune-text .tribune-textl .tribune-lr p{
+    display: block;
+    float: left;
+    color: #9d9d9d;
+}
+.tribune-text .tribune-textl .tribune-lr i{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 0 6px;
+    color: #9d9d9d;
+    background-color: #a94442;
+}
+.tribune-text .tribune-textl .tribune-lr i:nth-child(2){
+    background: url("../images/2author.png");
+}
+.tribune-text .tribune-lr i:nth-child(4){
+    background: url("../images/2replys.png");
+}
+.tribune-text .tribune-textr{
+    width: 285px;
+    margin-top: 30px;
+    padding-lrft: 20px;
+}
+.tribune-text .tribune-textr .tribune-textrt{
+    height: 40px;
+    line-height: 40px;
+    margin: 0 15px;
+    border-bottom: 1px solid #9d9d9d;
+    /* background-color: slateblue; */
+    text-align: start;
+    font-size: 16px;
+}
+.tribune-text .tribune-textr .tribune-textrb{
+    margin-top: 20px;
+}
+.tribune-text .tribune-textr .tribune-textrb li{
+    margin-top: 5px;
+}
+
+
+
