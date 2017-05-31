@@ -94,6 +94,7 @@ public class ZoneAction extends BaseAct {
 		List<Zone> zoneList = zoneService.findByCondition(zid,name,description);
 		request.getSession().setAttribute("zoneList", zoneList);
 
+		System.out.println("你好啊！");
 		return "/admin/forum/zoneList";
 	}
 	
