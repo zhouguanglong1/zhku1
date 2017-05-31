@@ -93,7 +93,7 @@ public class ZoneAction extends BaseAct {
 		//查询一级分类
 		List<Zone> zoneList = zoneService.findByCondition(zid,name,description);
 		request.getSession().setAttribute("zoneList", zoneList);
-		
+
 		return "/admin/forum/zoneList";
 	}
 	
